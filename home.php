@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-    <html lang="en-US">
+<html lang="en-US">
 
     <head>
 
@@ -14,6 +14,14 @@
         <link rel="stylesheet" href="./css/CustomCSS/dash.css">
         <link rel="stylesheet" href="./css/bootstrap.min.css">
 
+        <style>
+            iframe[seamless]{
+                background-color: transparent;
+                border: 0px none transparent;
+                padding: 0px;
+                overflow: hidden;
+            }
+        </style>
     </head>
 
     <!-- The body -->
@@ -48,7 +56,7 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">
-                                    <span data-feather="icon"></span>
+                                    <span data-feather="alert-triangle"></span>
                                     Text
                                 </a>
                             </li>
@@ -66,7 +74,7 @@
                         <ul class="nav flex-column mb-2">
                             <li class="nav-item">
                                 <a class="nav-link" href="#">
-                                    <span data-feather="file-text"></span>
+                                    <span data-feather="alert-triangle"></span>
                                     Text
                                 </a>
                             </li>
@@ -76,7 +84,14 @@
 
                 <!-- Body of page -->
                 <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+
                     
+                    <!-- Home -->
+                    <iframe src="./homeContent.php" seamless></iframe>
+
+                    <!-- Test -->
+                    <iframe src="./java.php" seamless></iframe>
+
                 </main>
             </div>
         </div>
