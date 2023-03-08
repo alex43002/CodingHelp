@@ -86,11 +86,11 @@
                 <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
 
                     
-                    <!-- Home -->
-                    <iframe src="./homeContent.php" seamless></iframe>
-
+                    <!-- Home 
+                    <iframe src="./homeContent.php" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:200px;width:100%;border:none;overflow:hidden;" seamless></iframe>
+-->
                     <!-- Test -->
-                    <iframe src="./java.php" seamless></iframe>
+                    <iframe src="./real-estate.html" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:200px;width:100%;border:none;overflow:hidden;" seamless></iframe>
 
                 </main>
             </div>
