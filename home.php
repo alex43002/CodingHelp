@@ -87,10 +87,12 @@
 
                     
                     <!-- Home 
-                    <iframe src="./homeContent.php" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:200px;width:100%;border:none;overflow:hidden;" seamless></iframe>
--->
+                    <iframe scrolling="no" src="./homeContent.php" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:200px;width:100%;border:none;overflow:hidden;" seamless></iframe>
+                    -->
+                    
+
                     <!-- Test -->
-                    <iframe src="./real-estate.html" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:200px;width:100%;border:none;overflow:hidden;" seamless></iframe>
+                    <iframe scrolling="no" src="./real-estate.html" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:200px;width:100%;border:none;overflow:hidden;" seamless></iframe>
 
                 </main>
             </div>
